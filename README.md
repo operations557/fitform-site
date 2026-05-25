@@ -1,27 +1,23 @@
-# FitForm Site
+# FitForm Website
 
-Next.js 14 (App Router) · Tailwind · Framer Motion · WhatsApp-first ordering.
+Premium NPB supplement e-commerce platform built with Next.js 14.
 
-## Setup
-```
+## Quick Start
+
+```bash
 npm install
 npm run dev
 ```
-Open http://localhost:3000
+
+Visit http://localhost:3000
 
 ## Build
+
+```bash
+npm run build
+npm start
 ```
-npm run build && npm start
-```
 
-## Images
-22 product images are in `public/products/` keyed by slug:
-`whey-vanilla.jpg`, `whey-choc.jpg`, … see `lib/products.ts`.
+## Deployment
 
-**HEADS UP:** images were mapped to slugs in alphabetical filename order from the WhatsApp zip. Verify each image matches its product — if any are swapped, just rename or replace the files in `public/products/`.
-
-## WhatsApp
-Single source of truth in `lib/constants.ts`. Change `WHATSAPP_NUMBER` to update every CTA.
-
-## Deploy
-Vercel-ready. No server-only deps. `next start` works fine on any Node 18+ host.
+Deployed on Vercel at https://fitform.co.za
