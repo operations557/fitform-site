@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-brand-border">
-        <div className="max-w-7xl mx-auto px-5 md:px-10 py-5 text-[11px] text-brand-grey font-mono">© 2026 Innov8 Group Holdings (Pty) Ltd t/a FitForm. All rights reserved.</div>
+        <div className="max-w-7xl mx-auto px-5 md:px-10 py-5 text-[11px] text-brand-grey font-mono">© 2026 Fitform (Pty) Ltd. All rights reserved.</div>
       </div>
     </footer>
   );
