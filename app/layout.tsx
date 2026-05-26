@@ -11,9 +11,7 @@ export const metadata: Metadata = {
   description: '22 premium-grade NPB supplements. Whey protein, pre-workout, creatine, vitamins and more. Order in 60 seconds via WhatsApp. South Africa.',
   keywords: 'protein, supplements, whey, pre-workout, creatine, South Africa, NPB',
   icons: {
-    icon: [
-      { url: '/logo/fitform-mark-only.svg', type: 'image/svg+xml' },
-    ],
+    icon: [{ url: '/logo/fitform-mark-only.svg', type: 'image/svg+xml' }],
     apple: '/logo/fitform-icon-square.svg',
   },
   openGraph: {
@@ -22,7 +20,6 @@ export const metadata: Metadata = {
     url: 'https://fitform.co.za',
     siteName: 'FitForm',
     type: 'website',
-    images: [{ url: '/logo/fitform-logo-horizontal.svg', width: 1600, height: 480 }],
   },
 };
 
